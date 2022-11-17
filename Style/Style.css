@@ -1,0 +1,130 @@
+body {
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 10pt;
+    background-color: #5d5d5d;
+    min-height: 100vh;
+    width: auto;
+    display: block;
+    padding: 0 20%;
+    margin: 1%;
+}
+
+/*css generale*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    margin-bottom: 0 auto 0;
+    flex-direction: column;
+}
+
+header {
+    color: #edebea;
+    background-image: url(" ../Images/bg1.png");
+    background-repeat: repeat;
+    height: 95px;
+    padding: 10px, 20px;
+    margin: 0;
+    flex: 0 0;
+}
+
+#immagineheader {
+    float: right;
+    height: 88px;
+    margin: 0 15px;
+}
+
+#container {
+    background-color: #e5e8ca;
+    flex: 1 1;
+    content-visibility: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+nav {
+    background-image: url(" ../Images/bg2.png");
+    background-repeat: repeat;
+    font-size: 11pt;
+
+    padding: 0px 20px;
+    flex: 1 1;
+    text-align: center;
+
+}
+
+
+nav  li {
+    margin: 1.4em 0;
+    display: list-item;
+}
+
+nav link {
+    text-decoration: none;
+    color: #5a5a5a;
+
+
+}
+
+main {
+    background-color: white;
+    font-size: 10pt;
+    padding: 15px 25px 15px 25px;
+    flex: 5 5;
+}
+
+figure {
+    float: right;
+    text-align: center;
+    border: black solid 1px;
+    padding: 5px;
+    margin: 0 20px;
+    clear: right;
+}
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+table,td,th {
+    border: black solid 1px;
+border-collapse: collapse;
+    padding: 5px;
+}
+
+main h1 {
+    font-size: 20pt;
+}
+
+main h2 {
+    font-size: 14pt;
+}
+
+main h3 {
+    color: grey;
+    font-size: 11pt;
+}
+
+footer {
+    color: 565656;
+    background-color: #b1bdb6;
+    text-align: center;
+    font-size: 9pt;
+
+    padding: 10px 0;
+    flex: 0 0;
+    position: bottom;
+
+}
+
+footer p {
+
+    margin: 5px 0;
+}
